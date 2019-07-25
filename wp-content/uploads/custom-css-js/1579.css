@@ -1,0 +1,106 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.outer-casestudies{
+    width: 940px;
+    height: 1140px;
+}
+.container-casestudies{
+    width: 470px;
+    height: 380px;
+    float: left;
+    position: relative;
+}
+.image-casestudies{
+    width: 470px;
+    height: 380px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.backgroundblack-casestudies{
+    width: 470px;
+    height: 380px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.text-casestudies{
+    width: 470px;
+    height: 380px;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.overplay-casestudies{
+    width: 470px;
+    height: 380px;
+    background-color: #c30055;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.overplay-casestudies:hover{
+    opacity: 1;
+}
+
+#image1-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/Mercyships-main-image-web-developmet@2x.png");
+}
+#image2-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/first-image.png");
+}
+#image3-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/Artboard@3x@2x-4.png");
+}
+#image4-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/interpeace-kids-top-header.jpg");
+}
+#image5-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/Artboard@3x@2x.jpg");
+}
+#image6-casestudies{
+    background-image: url("http://localhost/demo1/wp-content/uploads/2019/07/Artboard@2x.jpg");
+}
+.contentoverplay-casestudies{
+    padding-top: 100px;
+}
+.text-casestudies{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.overplay-casestudies{
+    text-align: center;
+}
+.contentoverplay-casestudies{
+    padding-top: 80px;
+}
+.contentoverplay-casestudies h2{
+  font-size: 30px;
+  color: white!important;
+}
+.contentoverplay-casestudies p{
+  color: white;
+}
+.text-casestudies h2{
+  color: white!important;
+  font-size: 30px;
+}
+.contentoverplay-casestudies button{
+  width: 150px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,232 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+*{margin: 0; padding: 0;}
+
+.wrapper .bt_load_more {
+    text-align: center;
+    display: block;
+    margin: 15px;
+    /* background: rebeccapurple; */
+}
+
+.wrapper .load_content {
+    clear: both;
+}
+
+._2block:hover .small_text {
+    transform: translateY(10px);
+}
+
+._2block:hover .big_text {
+    transform: translatey(-10px);
+}
+
+._2block:hover .bg_line1 {
+    transform: rotate(5deg);
+}
+
+._2block:hover .bg_line2 {
+    transform: rotate(-5deg);
+}
+
+.wrapper h2.title {
+    text-align: center;
+    font-family: segeo ui light;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.wrapper {
+    width: 55%;
+    margin: auto;
+}
+
+._1block .small_text {
+    position: absolute;
+    top: 116px;
+    left: 58px;
+    z-index: 3;
+    color: white;
+    width: 71%;
+    text-align: center;
+    font-family: segoe ui light;
+    transition: 0.3s;
+    opacity: 0;
+    transform: scale(0);
+    transition-delay: 0.4s;
+}
+
+._1block:hover .small_text {
+    transform: scale(1);
+    opacity: 1;
+}
+
+._1block .big_text {
+    font-size: 30px;
+    font-family: segoe ui light;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s;
+    top: 40%;
+    transition-delay: 0.3s;
+}
+
+._1block .bg_square {
+    width: 80%;
+    height: 80%;
+    border: 3px solid white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transition: 0.3s;
+    opacity: 0;
+    transform: scale(0);
+    transition-delay: 0.3s;
+}
+
+._1block:hover .bg_square {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.bg_gradient {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-image : linear-gradient(345deg,#5dcd6a 0%, #d38253 40%, #4b4a4a 100%);
+    background-image : -moz-linear-gradient(45deg,#5dcd6a 0%, #d38253 40%, #4b4a4a 100%);
+    background-image : -webkit-linear-gradient(45deg,#5dcd6a 0%, #d38253 40%, #4b4a4a 100%);
+    background-image : -o-linear-gradient(45deg,#5dcd6a 0%, #d38253 40%, #4b4a4a 100%);
+    transition: 0.4s;
+    opacity: 0;
+    transition-delay: 0.1s;
+}
+
+._1block:hover .bg_gradient {
+    opacity: 0.3;
+}
+
+._1block .bg_gray {
+    width: 400px;
+    height: 300px;
+    background: #0000003b;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: 0.4s;
+    opacity: 1; 
+}
+
+._1block:hover .bg_gray {
+    opacity: 0;
+}
+
+._1block img.layer1 {
+    height: 400px;
+}
+
+.wrapper ._1block {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 10px 10px 5px 5px;
+}
+
+._1block:hover .big_text {
+    /* top: 5%; */
+    transform: translateY(-60px);
+    font-weight: bold;
+} 
+
+.wrapper ._2block {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 10px 10px 5px 5px;
+}
+
+._2block .big_text, ._2block .small_text {
+    position: absolute;
+    top: 18%;
+    left: 0px;
+    z-index: 5;
+    color: white;
+    font-family: segoe ui light;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+}
+
+._2block .small_text {
+    font-size: 15px;
+    top: 120px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+._2block .bg_line1, ._2block .bg_line2 {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    z-index: 5;
+    width: 350px;
+    height: 0.5px;
+    background: white;
+    transition: 0.4s;
+    transform: rotate(0deg);
+}
+
+._2block .bg_blue {
+    width: 400px;
+    height: 300px;
+    background: #add8e624;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+._2block:hover .bg_blue {
+    opacity: 0.6;
+}
+
+._2block img.layer1 {
+    height: 300px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+._2block:hover img.layer1 {
+    transform: scale(1);
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

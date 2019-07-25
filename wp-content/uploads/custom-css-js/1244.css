@@ -1,0 +1,62 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.main_member_team{
+  width:100%;
+  	height:auto;
+  /*text-align: center;*/
+  /*margin: auto;*/
+}
+.container_member_team{
+  	margin-left:20px;
+  	margin-right:20px;
+  position: relative;
+  /*width:100%;*/
+  	width:203px;
+}
+ 
+.image_member_team{
+  display: block;
+  width: 203px;
+  height: 204px;
+}
+ 
+.overlay_member_team{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 203px;
+  width: 204px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #26597c;
+}
+ 
+.container_member_team:hover .overlay_member_team{
+  opacity: 1;
+}
+ 
+.text_member_team{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  padding:10px;
+  /*top: 50%;
+  left: 50%;*/
+  /*transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

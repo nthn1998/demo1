@@ -1,0 +1,36 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+#slideshow {
+    position: relative;
+    height: 60px;
+}
+#slideshow img {
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    margin-bottom: 10px;
+}
+#slideshow li {
+  list-style:none;
+  	list-style-type:none;
+  	list-style-position:initial;
+  	list-style-image:initial;
+  width:100%;
+  font-size:48px;
+  font-weight:600;
+  color:#fff;
+  line-height:110%;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

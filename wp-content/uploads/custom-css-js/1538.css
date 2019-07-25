@@ -1,0 +1,35 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+        .container-career-careers{
+            width: 920px;
+            height: 300px;
+            border: 2px solid #c8d1d6;
+        }
+        .text-career-careers{
+            width: 776px;
+            height: 300px;
+            float: left;
+          	padding-top: 30px;
+          	padding-left: 40px;
+        }
+        .image-career-careers{
+            width: 140px;
+            height: 300px;
+            float: left;
+            text-align: center;
+        }
+        .image-career-careers img{
+            margin-top: 130px;
+        }
+</style>
+<!-- end Simple Custom CSS and JS -->

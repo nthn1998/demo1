@@ -1,0 +1,57 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.container_contact{
+    
+}
+label{
+    color: brown;
+}
+#typeofquery{
+    border: none;
+    width: 130px!important;
+    font-size: 12px;
+}
+#typeofquery option{
+  	/*margin-bottom:5px;*/
+}
+.content_select{
+  	
+}
+#submit{
+    width: 250px;
+    height: 70px;
+    font-size: 18px;
+    color: white;
+    background-color: #c20055;
+    border: none;
+}
+#submit:hover{
+    background-color: #00293d;
+}
+.title_info_contact{
+    color: #919598;
+}
+.detail_info{
+    width: 500px!important;
+    border: none !important;
+    border-bottom: 1px solid black!important;
+}
+.info_contact{
+    padding-top: 15px;
+}
+.text_checkbox_contact{
+    color: #919598;
+    font-size: 12px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

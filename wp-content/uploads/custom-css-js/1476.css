@@ -1,0 +1,52 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+        .main_client_clients{
+            width: 100%;
+            height: auto;
+        }
+        .container_client_clients{
+            width: 220px;
+            height: auto;
+            position: relative;
+        }
+        .image_client_clients{
+            width: 220px;
+            height: 130px;
+        }
+        .overlay_client_clients{
+            width: 220px;
+            height: auto;
+            background-color: #c7d2d7;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            opacity: 0;
+            transition: ease .5s;
+        }
+        .text_client_clients{
+            position: absolute;
+            background-color: #c7d2d7;
+            width: 220px;
+            height: auto;
+            padding-left:20px;
+          	padding-right:20px;
+          	padding-top:25px;
+        }
+        .container_client_clients:hover .overlay_client_clients{
+            opacity: 1;
+          	z-index: 1;
+        }
+</style>
+<!-- end Simple Custom CSS and JS -->

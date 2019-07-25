@@ -1,0 +1,54 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.category-blog{
+    list-style-type: none;
+}
+.category-blog i{
+    color: #c20055;
+}
+.search-blog{
+    width: auto;
+    height: auto;
+}
+.inputsearch-blog{
+    width: 100px;
+    height: 25px;
+  position: relative;
+}
+.textsearch-blog{
+    width: 90px;
+    height: 25px;
+    border: 1px solid #e3e8ed;
+    float: left;
+}
+.outerbutton-blog{
+    float: left;
+    width: 30px;
+    height: 25px;
+   text-align: center;
+  position: absolute;
+  left:100px;
+}
+.buttonsearch-blog{
+    width: 30px;
+    height: 34px;
+    color: white;
+    background-color: #004c70;
+    border: none;
+  text-align: center;
+}
+.buttonsearch-blog:hover{
+    background-color: #c20055;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

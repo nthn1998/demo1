@@ -1,0 +1,45 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.flip3D{
+  float: left;
+  width:225px;
+  height:225px;
+}
+.flip3D > .front{
+  	position:absolute;
+	transform: perspective(600px) rotate(0deg);
+    -webkid-transform: perspective(600px) rotate(0deg);
+	backface-visibility:hidden;
+    -webkid-backface-visibility:hidden;
+	transform: transform .5s linear 0s;
+  	transform: -webki-transform .5s linear 0s;
+}
+.flip3D > .back{
+  	position:absolute;
+	transform: perspective(600px) rotate(180deg);
+  	-webkid-transform: perspective(600px) rotate(180deg);
+	backface-visibility:hidden;
+  	-webkid-backface-visibility:hidden;
+	transform: transform .5s linear 0s;
+  transform: -webkid-transform .5s linear 0s;
+}
+.flip3D:hover > .front{
+	transform: perspective(600px) rotateY(-180deg);
+  	-webkit-transform: perspective(600px) rotateY(-180deg);
+}
+.flip3D:hover > .back{
+	transform: perspective(600px) rotateY(0deg);
+  	-webkid-transform: perspective(600px) rotateY(0deg);
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

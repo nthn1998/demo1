@@ -1,0 +1,43 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+		.tyb_outer{
+			width:auto;
+			height:auto;
+			background-color:blue;
+		}
+		.tyb_text{
+			width:920px;
+			height:230px;
+			float:left;
+			padding-left:50px;
+			
+		}
+		.tyb_image{
+			width:180px;
+			height:230px;
+			float:left;
+			text-align:center;
+			background-color:#c20055;
+			
+		}
+		.tyb_image img{
+			margin-top:70px;
+		}	
+		.tyb_text:hover{
+			background-color:white;
+		}
+		.tyb_image:hover{
+			background-color:#014d70;
+		}
+</style>
+<!-- end Simple Custom CSS and JS -->
